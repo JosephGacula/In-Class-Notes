@@ -1,0 +1,32 @@
+4/22 Notes
+Mention of Stack Overflow Attack
+
+Quiz 2 Review:
+
+For Question 5, we do not own the memory after it is done in the function, specifically the copies of the books. To fix this, the array
+should be instantiated with 'new'
+
+Lecture Notes:
+
+List is just a bunch of stuff that has a sequence
+
+There are 3 times of member variable: private, protected, and public
+
+private - these can only be accessed by the current class
+public - everyone can access them
+protected - if you want these variables to be recognized by deriving classes, use this
+
+***Understand the difference between these for exams
+
+In virtual functions, you can use = 0 when you truly dont need it
+ex: virtual void play() = 0;
+
+3 Way Handshake
+When 2 computers need to talk to each other
+The procedure is that the first computers asks "Hey are you there"
+The second computer says "yes i'm here"
+the third "handshake" is computer 1 saying I heard that 
+
+if the third part is not initiated, that is not enough for the first computer to understand, it needs to understand the second computer
+got the first message
+
