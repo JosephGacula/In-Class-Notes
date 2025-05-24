@@ -1,0 +1,31 @@
+5/20 Notes
+Recursion Notes
+
+
+Different ways of going through a tree:
+Pre-Order traversal, overall idea is top left right
+In-Order traversal, left, center, right, useful for searching for a range of numbers and not one number
+Post-Order traversal, left, right, center, good for deleting trees
+
+template<typename T>
+bool is_binary_search_tree(const TreeNode<T> *root) {
+    if (root == nullptr) {
+        return false; //input check
+    }
+
+    bool left = false
+    //check if the left is also a bst
+    if (!is_binary_search_tree(root->left)) {
+        return false;
+    }
+    //check if the right tree is a bst
+    //check if top is between left and right
+    return  is_binary_search_tree(root->right) &&
+            is_binary_search_tree(root->left)&&
+            (root->value >= root->left->value || root->left == nullptr) &&
+            (root->value <= root->right->value || root->right == nullptr);
+}
+
+Make sure to study tree traversals, and confirming whether trees are binary search trees
+
+You dont always have to store a tree with nodes, you can also use an array
