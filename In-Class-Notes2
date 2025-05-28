@@ -29,3 +29,36 @@ bool is_binary_search_tree(const TreeNode<T> *root) {
 Make sure to study tree traversals, and confirming whether trees are binary search trees
 
 You dont always have to store a tree with nodes, you can also use an array
+
+
+5/27 Notes
+
+Know the sorts, you should be able to recognize them, know if something changed, be able to write, know what they do.
+
+BIG O
+
+Store: whats the best way to store things to that we can search things faster
+
+ADT Hashtable:
+-Think of asking an employee at the store where a certain item is
+-This is the easiest one and most commonly used
+-Also referred to as "Dictionary", "Set", "Map"
+-O(1) instant search and insert/deletion
+-Even though instant performance is promised, it is now always gauranteed, in the worse case, its not better than a linear search
+-ESSENTIALLY USED TO FIND STUFF REALLY QUICKLY
+
+-In real life, you would be selecting what appropriate data structure can help to solve your problem
+*NOTE Everything in a set is unique
+-The conversion from a key to an index is called a hash function
+-Collision, happens when 2 keys are mapped to the same spot ON EXAM
+-Chaining, when different data is mapped to the same spot ON EXAM
+
+-ON HW 3, read and understand the get function
+
+Efficiency/Big O
+- least amount if inputs/resources to achieve the highest amount of output
+- Whenever you see the word "complexity", replace it with the word efficiency
+-ON EXAM, the motorcycle has less power but has less weight, so the output ratio is better for the motorcycle compared to the rest
+-Efficicency depends on the amount of elements, for example, quick sort and bubble sort, the difference comes with the amount of elements
+
+
