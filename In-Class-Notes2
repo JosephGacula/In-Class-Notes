@@ -61,4 +61,22 @@ Efficiency/Big O
 -ON EXAM, the motorcycle has less power but has less weight, so the output ratio is better for the motorcycle compared to the rest
 -Efficicency depends on the amount of elements, for example, quick sort and bubble sort, the difference comes with the amount of elements
 
+5/29
+Animal Crossing Problem ON THE EXAM, same principle but would be related to computers (4 codes to run with 1 cpu, goal is to minimize the runtime)
+-You will be given a specific time and asked if it is possible for all to make it
+-Neither should walk alone with the light
+-Longest should walk together to minimize longest time
+-It usually IS possible, you want somebody with shorter walking time to walk it back
+-If still confused, look up the bridge riddle on youtube
+
+Big O
+Calculation of Big O (like on the bubble sort slides)
+-Bubble sort and insertion sort complexity is the same, need to know which sort to use PROBABLY ON EXAM
+-When dealing with array, bubble sort is preferred
+-When dealing with a linked list, either is good
+-Essentially, Big O tells you something, but it is not everything
+
+LRU
+
+
 
