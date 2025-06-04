@@ -78,5 +78,26 @@ Calculation of Big O (like on the bubble sort slides)
 
 LRU
 
+6/3
+
+Remember the Big0 chart
+
+The box weight problem is basiaclly a binary search, with a big 0 of logn
+
+Code from demo will likely be ON THE FINAL
+
+Truth tables will be on the exam, (deciphering !, && and ||)
+
+Propositional: A statement that is either true or false
+
+"It is sunny today" the statement is either right or wrong
+
+Propositional Logic: Implication
+"when p, then q"
+
+-if p doesnt happen, that dosent necesarilly mean q wont happen
+-if p does happen, q will happen
+-the reverse is not always true "if q, then p"
+Propositional Logic: 
 
 
