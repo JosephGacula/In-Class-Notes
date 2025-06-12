@@ -87,3 +87,6 @@ void delete_tree(TreeNode<T> *root) {
     return head->next->val;
 }</pre>
 
+<pre>int * num - new int(7);
+std::cout << *num << endl; //outputs 7
+delete num;</pre>
